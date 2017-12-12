@@ -3,7 +3,125 @@
 /* CSS Document */
 
 
-/* 用户登录 */
+/*公用*/
+
+.comWidth {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftArea {
+    float: left;
+}
+
+.rightArea {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+a {
+    color: rgb(0, 110, 255);
+}
+
+
+/*topBar*/
+
+.topBar {
+    height: 31px;
+    background-color: #F7F7F7;
+    line-height: 31px;
+}
+
+.topBar a:hover {
+    text-decoration: underline;
+}
+
+
+/*logo*/
+
+.logoBar {
+    height: 85px;
+    background-color: white;
+}
+
+.logo {
+    padding-left: 41px;
+    padding-top: 13px;
+}
+
+
+/*search*/
+
+.search_box {
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 165px;
+}
+
+.search_text {
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 340px;
+    height: 35px;
+    line-height: 35px\9;
+    /*css hack  \9 代表所有的ie浏览器*/
+    padding: 0 5px;
+    background-color: #FFF;
+}
+
+.search_btn {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: blue;
+    color: #FFF;
+}
+
+
+/*购物车*/
+
+.shopCar {
+    width: 145px;
+    height: 35px;
+    background-color: blue;
+    margin-top: 23px;
+    font: 14px/35px "Microsoft YaHei", "微软雅黑";
+    color: #FFF;
+    margin-right: 59px;
+    display: inline;
+}
+
+.shopText {
+    /*font-size:14px; font-family:"Microsoft YaHei", "微软雅黑"; line-height:35px;*/
+    height: 100%;
+    width: 87px;
+    border-right: rgb(10, 186, 255) solid 1px;
+    background: url(../img/icon/car.jpg) 10px center no-repeat;
+    text-indent: 40px;
+}
+
+.shopNum {
+    width: 27px;
+    height: 35px;
+    border-left: rgb(10, 186, 255) 1px;
+    background: url(../img/icon/down.jpg) 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+}
+
+
+/*登陆*/
 
 .login_logo .comWidth {
     width: 460px;
@@ -41,7 +159,7 @@
 }
 
 .user_icon {
-    background: url(../img/icon/user_icon.jpg) right center no-repeat;
+    background: url(../images/icon/user_icon.jpg) right center no-repeat;
 }
 
 .mb_10 {
@@ -62,7 +180,7 @@
 .login_btn {
     width: 309px;
     height: 36px;
-    background: url(../img/icon/login_btn.jpg) left top no-repeat;
+    background: url(../images/icon/login_btn.jpg) left top no-repeat;
 }
 
 .login_partners {
@@ -82,7 +200,7 @@
 .reg_link {
     width: 115px;
     height: 31px;
-    background: url(../img/icon/red_link.jpg) left top no-repeat;
+    background: url(../images/icon/red_link.jpg) left top no-repeat;
     position: absolute;
     right: 31px;
     bottom: -31px;
